@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" 
-    <link rel="stylesheet" href="stylesheet.css">
-		<title>Tom Kerlin</title>
-	</head>
-	<body>
-	    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-	</div>	
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Tom Kerlin</h1>
-        <p>Hello, and thank you for visiting my web-page!</p>
-      </div>
-    </div> 
-		
-		
-	</body>
+		<style>
+    body {
+        text-align: center;
+        background: url("https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/splash.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        color: white;
+        background-attachment: fixed;
+        font-family: Helvetica;
+    }
+    p {
+        font-size: 24px;
+    }
+    input {
+        border: 0;
+        padding: 12px;
+        font-size: 18px;
+    }
+    input[type="submit"] {
+        background: limegreen;
+        color: black;
+    }
+</style>
+</head>
+<body>
+<img src="https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/avatar.jpg" height="250" width="250">
+<p>Summary Statement</p>
+<input type="email" placeholder="Email">
+<input type="submit">
+</body>
 </html>
